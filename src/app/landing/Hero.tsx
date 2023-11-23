@@ -9,7 +9,7 @@ function Hero() {
           Remote Solutions is a tech leader reshaping the future of work. Our
           suite of cutting-edge tools empowers businesses to thrive in a remote
           environment, ensuring seamless collaboration and adaptability in
-          today's dynamic landscape.
+          todays dynamic landscape.
         </p>
         <div className='flex flex-col-reverse md:flex-row gap-5'>
           <Image
