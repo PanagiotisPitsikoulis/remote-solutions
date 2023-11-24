@@ -19,7 +19,7 @@ function LandingInfoSection({ Elements, title }: LandingInfoSectionProps) {
             { "md:flex-row-reverse flex-col": false }
           )}
         >
-          <h1 className={clsx(text.header)}>{title}</h1>
+          <h1 className={clsx(text.header, "mr-5")}>{title}</h1>
           <div className={clsx("grid grid-cols-2 gap-3")}>
             {Elements.map((asset) => asset)}
           </div>
