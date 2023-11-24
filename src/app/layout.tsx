@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import clsx from "clsx";
+import { colors } from "./ui/utils/theme";
 
 export const metadata: Metadata = {
   title: "Metal Survivors",
@@ -13,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body className={clsx(colors.text.light)}>{children}</body>
     </html>
   );
 }
