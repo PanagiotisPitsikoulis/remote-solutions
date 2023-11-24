@@ -1,7 +1,6 @@
 import { EpicGames, GameAssets, roadmapItems } from "@/app/data/constants/hero";
 import Hero from "@/app/ui/landing/Hero";
 import Roadmap from "@/app/ui/landing/Roadmap";
-import SwitchText from "@/app/ui/landing/SwitchText";
 import Footer from "./ui/landing/Footer";
 import LandingInfoSection from "./ui/landing/LandingInfoSection";
 import clsx from "clsx";
