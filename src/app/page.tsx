@@ -6,6 +6,7 @@ import LandingInfoSection from "./ui/landing/LandingInfoSection";
 import clsx from "clsx";
 import { colors, layout } from "./ui/utils/theme";
 import Credits from "./ui/landing/Credits";
+import ContactUs from "./ui/landing/ContactUs";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
           roadmapItems={roadmapItems}
         />
       </div>
+      <ContactUs></ContactUs>
       <Footer></Footer>
     </div>
   );

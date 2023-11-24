@@ -56,22 +56,6 @@ export const GameAssets = [
     height={500}
     src={"/images/drones/drone4.jpg"}
   />,
-  <Image
-    key={5}
-    className='rounded-xl'
-    alt='img5'
-    width={300}
-    height={500}
-    src={"/images/drones/drone5.jpg"}
-  />,
-  <Image
-    key={6}
-    className='rounded-xl'
-    alt='img6'
-    width={300}
-    height={500}
-    src={"/images/drones/drone6.jpg"}
-  />,
 ];
 
 export const EpicGames = [
@@ -103,26 +87,6 @@ export const EpicGames = [
     height={500}
     src={
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
-  />,
-  <Image
-    key={4}
-    className='rounded-xl'
-    alt='img4'
-    width={300}
-    height={500}
-    src={
-      "https://images.unsplash.com/photo-1608306448197-e83633f1261c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
-  />,
-  <Image
-    key={5}
-    className='rounded-xl'
-    alt='img11'
-    width={300}
-    height={500}
-    src={
-      "https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHNvZnR3YXJlfGVufDB8fDB8fHww"
     }
   />,
 ];

@@ -16,7 +16,7 @@ function Button({ label, className, variant }: ButtonProps) {
   const textMatchBorder = variant === "secondary" || variant === "tertiary";
   const buttonClass = clsx(
     borderActive && colors.border.main,
-    "px-4 py-1 rounded-xl font-bold",
+    "px-4 py-1 rounded-xl font-bold w-fit",
     bgActive && colors.focus.normal,
     textContrastActive && colors.text.darkAccent,
     textMatchBorder && colors.text.matchBorder,

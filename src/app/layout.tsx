@@ -4,8 +4,8 @@ import clsx from "clsx";
 import { colors } from "./ui/utils/theme";
 
 export const metadata: Metadata = {
-  title: "Metal Survivors",
-  description: "Embark on an epic journey.",
+  title: "Remote Solutions.",
+  description: "Taking drone software to the next level since 2014.",
 };
 
 export default function RootLayout({
