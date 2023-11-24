@@ -13,14 +13,7 @@ interface HeroProps {
 }
 
 function Hero(props: HeroProps) {
-  const {
-    title,
-    description,
-    logoSrc,
-    preorderButtonLabel,
-    contactButtonLabel,
-    heroImageSrc,
-  } = props;
+  const { title, description, logoSrc, heroImageSrc } = props;
 
   // Hardcoded image properties
   const imageAlt = "Hero image";

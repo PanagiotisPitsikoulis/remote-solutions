@@ -46,7 +46,7 @@ export const text = {
 };
 
 export const layout = {
-  padding: "md:p-24 p-12",
+  padding: "md:p-24 p-8",
   content: {},
   section: {
     center: "w-full flex items-center justify-center",
