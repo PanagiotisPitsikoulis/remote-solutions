@@ -1,7 +1,9 @@
+"use client";
 import Image from "next/image";
 import { colors, layout, text } from "../utils/theme";
 import clsx from "clsx";
 import Button from "@/app/ui/input/Button";
+import Scene from "../3d/Scene";
 
 interface HeroProps {
   title: string;
@@ -51,13 +53,16 @@ function Hero(props: HeroProps) {
       </div>
       <div>
         {heroImageSrc && (
-          <Image
-            src={heroImageSrc}
-            alt={imageAlt}
-            width={imageWidth}
-            height={imageHeight}
-            className='h-screen w-[120vh] object-cover max-sm:hidden'
-          />
+          // <Image
+          //   src={heroImageSrc}
+          //   alt={imageAlt}
+          //   width={imageWidth}
+          //   height={imageHeight}
+          //   className='h-screen w-[120vh] object-cover max-sm:hidden'
+          // />
+          <div className='h-screen w-[90vh] pl-14 bg-gradient-to-r from-neutral-800 to-black'>
+            <Scene></Scene>
+          </div>
         )}
       </div>
     </div>

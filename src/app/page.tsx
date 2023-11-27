@@ -1,3 +1,4 @@
+"use client";
 import { EpicGames, GameAssets, roadmapItems } from "@/app/data/constants/hero";
 import Hero from "@/app/ui/landing/Hero";
 import Roadmap from "@/app/ui/landing/Roadmap";
@@ -7,14 +8,10 @@ import clsx from "clsx";
 import { colors, layout } from "./ui/utils/theme";
 import Credits from "./ui/landing/Credits";
 import ContactUs from "./ui/landing/ContactUs";
-import MyScene from "./ui/3d/Scn";
 
 export default function Home() {
   return (
     <div className='flex flex-col w-full min-h-screen'>
-      <div className='h-screen w-full bg-white'>
-        <MyScene />
-      </div>
       <div
         className={clsx(colors.background.main, layout.section.heightNormal)}
       >
