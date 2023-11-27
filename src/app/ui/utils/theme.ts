@@ -1,40 +1,40 @@
 export const colorsLight = {
   background: {
-    main: "bg-stone-300",
-    content: "bg-stone-200",
-    neutral: "bg-stone-50",
+    main: "bg-neutral-300",
+    content: "bg-neutral-200",
+    neutral: "bg-neutral-50",
   },
-  focus: { normal: "bg-stone-400", high: "bg-pink-500" },
+  focus: { normal: "bg-neutral-400", high: "bg-pink-500" },
   border: {
-    main: "border-2 border-stone-600",
-    neutral: "border-2 border-stone-300",
+    main: "border-2 border-neutral-600",
+    neutral: "border-2 border-neutral-300",
   },
   text: {
-    matchBorder: "text-stone-600",
-    dark: "text-stone-200",
-    darkAccent: "text-stone-100",
-    light: "text-stone-950",
-    lightAccent: "text-stone-900",
+    matchBorder: "text-neutral-600",
+    dark: "text-neutral-200",
+    darkAccent: "text-neutral-100",
+    light: "text-neutral-950",
+    lightAccent: "text-neutral-900",
   },
 };
 
 export const colorsDark = {
   background: {
     main: "bg-black",
-    content: "bg-stone-950",
-    neutral: "bg-stone-900",
+    content: "bg-neutral-950",
+    neutral: "bg-neutral-900",
   },
-  focus: { normal: "bg-stone-400", high: "bg-pink-200" },
+  focus: { normal: "bg-neutral-400", high: "bg-pink-200" },
   border: {
-    main: "border-2 border-stone-200",
-    neutral: "border-2 border-stone-400",
+    main: "border-2 border-neutral-200",
+    neutral: "border-2 border-neutral-400",
   },
   text: {
-    matchBorder: "text-stone-200",
-    dark: "text-stone-800",
-    darkAccent: "text-stone-900",
-    light: "text-stone-50",
-    lightAccent: "text-stone-100",
+    matchBorder: "text-neutral-200",
+    dark: "text-neutral-800",
+    darkAccent: "text-neutral-900",
+    light: "text-neutral-50",
+    lightAccent: "text-neutral-100",
   },
 };
 

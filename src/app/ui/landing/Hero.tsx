@@ -10,18 +10,26 @@ interface HeroProps {
   preorderButtonLabel: string;
   contactButtonLabel: string;
   heroImageSrc?: string;
+  variant?: "left" | "right";
 }
 
 function Hero(props: HeroProps) {
-  const { title, description, logoSrc, heroImageSrc } = props;
+  const { title, description, logoSrc, heroImageSrc, variant = "left" } = props;
 
-  // Hardcoded image properties
   const imageAlt = "Hero image";
   const imageWidth = 1200;
   const imageHeight = 800;
 
   return (
-    <div className='flex flex-row justify-between'>
+    <div
+      className={clsx(
+        "flex justify-between",
+        {
+          "flex-row": variant == "left",
+        },
+        { "flex-row-reverse": variant == "right" }
+      )}
+    >
       <div className={clsx(layout.padding)}>
         <h1 className={clsx(text.header, "mb-7")}>{title}</h1>
         <p className={clsx(text.content, "mb-12 ")}>{description}</p>

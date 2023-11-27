@@ -22,6 +22,7 @@ export default function Home() {
           preorderButtonLabel='Preorder Now'
           contactButtonLabel='Contact Our Sales Team'
           heroImageSrc='https://images.unsplash.com/photo-1533309907656-7b1c2ee56ddf?q=80&w=1504&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+          variant='right'
         />
       </div>
       <div className={clsx(colors.background.content)}>
