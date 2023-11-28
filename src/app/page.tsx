@@ -1,4 +1,3 @@
-"use client";
 import { EpicGames, GameAssets, roadmapItems } from "@/app/data/constants/hero";
 import Hero from "@/app/ui/landing/Hero";
 import Roadmap from "@/app/ui/landing/Roadmap";
