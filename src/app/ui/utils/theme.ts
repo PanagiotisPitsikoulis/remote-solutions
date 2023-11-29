@@ -8,6 +8,7 @@ export const colorsLight = {
   border: {
     main: "border-2 border-neutral-600",
     neutral: "border-2 border-neutral-300",
+    accent: "border-2 border-blue-500",
   },
   text: {
     matchBorder: "text-neutral-600",
@@ -28,6 +29,7 @@ export const colorsDark = {
   border: {
     main: "border-2 border-neutral-200",
     neutral: "border-2 border-neutral-400",
+    accent: "border-2 border-blue-500",
   },
   text: {
     matchBorder: "text-neutral-200",
@@ -41,7 +43,7 @@ export const colorsDark = {
 export const colors = colorsDark;
 
 export const text = {
-  header: "text-7xl font-bold",
+  header: "md:text-7xl text-4xl font-bold",
   content: "text-xl md:w-[55vh] ",
 };
 
@@ -53,6 +55,10 @@ export const layout = {
     heightNormal: "w-full h-screen",
     heightBig: "w-full h-[140vh]",
   },
+};
+
+export const utils = {
+  hscroll: "flex flex-row overflow-scroll gap-5",
 };
 
 export const darkTheme = {};

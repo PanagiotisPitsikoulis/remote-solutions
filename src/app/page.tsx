@@ -1,4 +1,4 @@
-import { EpicGames, GameAssets, roadmapItems } from "@/app/data/constants/hero";
+import { EpicGames, GameAssets, roadmapItems } from "@/app/data/constants";
 import Hero from "@/app/ui/landing/Hero";
 import Roadmap from "@/app/ui/landing/Roadmap";
 import Footer from "./ui/landing/Footer";
@@ -7,6 +7,7 @@ import clsx from "clsx";
 import { colors, layout } from "./ui/utils/theme";
 import Credits from "./ui/landing/Credits";
 import ContactUs from "./ui/landing/ContactUs";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,7 +15,12 @@ export default function Home() {
       <div
         className={clsx(colors.background.main, layout.section.heightNormal)}
       >
-        <Credits />
+        <Link
+          href={"/drone"}
+          className='flex items-center justify-center py-4 font-bold'
+        >
+          Customize your drone now.
+        </Link>
         <Hero
           title='Remote Solutions'
           description="Remote Solutions is a tech leader reshaping the future of work. Our suite of cutting-edge tools empowers businesses to thrive in a remote environment, ensuring seamless collaboration and adaptability in today's dynamic landscape."
@@ -46,6 +52,7 @@ export default function Home() {
       </div>
       <ContactUs></ContactUs>
       <Footer></Footer>
+      <Credits />
     </div>
   );
 }

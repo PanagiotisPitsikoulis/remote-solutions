@@ -7,9 +7,10 @@ interface ButtonProps {
   className?: string;
   variant?: "primary" | "secondary" | "tertiary";
   disabled?: boolean;
+  onClick?: () => void;
 }
 
-function Button({ label, className, variant }: ButtonProps) {
+function Button({ label, className, variant, onClick }: ButtonProps) {
   const borderActive = variant === "primary" || variant === "secondary";
   const bgActive = variant === "primary";
   const textContrastActive = variant === "primary";
@@ -23,7 +24,11 @@ function Button({ label, className, variant }: ButtonProps) {
     className
   );
 
-  return <button className={buttonClass}>{label}</button>;
+  return (
+    <button className={buttonClass} onClick={onClick}>
+      {label}
+    </button>
+  );
 }
 
 export default Button;
