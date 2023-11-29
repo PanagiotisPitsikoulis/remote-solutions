@@ -69,8 +69,8 @@ function Page() {
         </MarketingCard>
       ) : (
         <div>
-          {selectedAnswers.map((answer) => (
-            <p>{answer}</p>
+          {selectedAnswers.map((answer, index) => (
+            <p key={index}>{answer}</p>
           ))}
         </div>
       )}
